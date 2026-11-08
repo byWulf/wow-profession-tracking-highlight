@@ -11,7 +11,7 @@ WoW addon `ProfessionTrackingHighlight` (shown as "Profession Tracking Highlight
 - `ProfessionTrackingHighlight.toc`: addon manifest, interface `16001` (WoW Forever only, Classic Era is not supported), SavedVariables `ProfessionTrackingHighlightDB` (account-wide options)
 - `Locales.lua`: all user-facing strings. English is the base table, other locales only override keys. Exposed as `ns.L`. Covers every text locale of the WoW Forever client: enUS, deDE, frFR, esES, esMX (same table as esES), ptBR, ruRU, koKR, zhCN, zhTW. There is no itIT client. The TOC has a localized `Notes-xxXX` for each. Spell names are never translated here, they come from the client (`ns.SpellName`).
 - `Core.lua`: options defaults, the profession tracking spell IDs, reading the active trackings, the `/pth` command and all events
-- `Buttons.lua`: finding action buttons of all bar addons (named lists, Blizzard's `ActionBarButtonEventsFrame.frames`, LibActionButton registries, plus one walk over all frames), reading the spell a button shows, and the border/glow overlay. Taken from Smart Gear Switcher (`byWulf/wow-smart-gear-switcher`), which matches buttons the same way.
+- `Buttons.lua`: finding action buttons of all bar addons (named lists, Blizzard's `ActionBarButtonEventsFrame.frames`, LibActionButton registries, plus one walk over all frames), reading the spell a button shows, and the border/glow overlay. Taken from Active Gear Highlight (`byWulf/wow-active-gear-highlight`, formerly Smart Gear Switcher), which matches buttons the same way.
 - `Options.lua`: options page with Blizzard's Settings API (vertical layout)
 
 Key behavior:

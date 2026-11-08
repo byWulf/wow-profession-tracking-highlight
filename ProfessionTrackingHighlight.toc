@@ -13,6 +13,7 @@
 ## Author: byWulf
 ## Version: @project-version@
 ## X-License: MIT
+## X-Curse-Project-ID: 1791637
 ## SavedVariables: ProfessionTrackingHighlightDB
 ## IconTexture: Interface\Icons\INV_Misc_Flower_02
 

@@ -19,6 +19,8 @@ Classic Era and other versions are not supported.
 
 ## Installation
 
+Install it from [CurseForge](https://www.curseforge.com/wow/addons/profession-tracking-highlight), e.g. with the CurseForge app.
+
 For a manual installation, note that the folder in your AddOns directory **must** be named `ProfessionTrackingHighlight`, otherwise WoW will not load the addon:
 
 ```bash

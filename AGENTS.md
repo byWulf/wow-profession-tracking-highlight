@@ -39,10 +39,10 @@ There is no automated test setup. Changes are verified in game with `/reload`; L
 
 ## Releasing
 
-Releases are built by `.github/workflows/release.yml` with the BigWigs packager (`.pkgmeta` sets the folder name and leaves out `AGENTS.md`/`CLAUDE.md`).
+Published on CurseForge as project `1791637` (https://www.curseforge.com/wow/addons/profession-tracking-highlight) and as GitHub releases. Releases are built by `.github/workflows/release.yml` with the BigWigs packager (`.pkgmeta` sets the folder name and leaves out `AGENTS.md`/`CLAUDE.md`).
 
 1. Commit and push the changes to `main`.
 2. Tag and push: `git tag -a vX.Y.Z -m "X.Y.Z"` and `git push origin vX.Y.Z` (semantic versioning).
 3. The workflow packages the addon, replaces `@project-version@` in the TOC with the tag, uploads the zip to CurseForge (project ID from `X-Curse-Project-ID` in the TOC, game version from the TOC interface) and creates the GitHub release.
 
-Not on CurseForge yet: the project has to be created by hand first and its ID added to the TOC as `## X-Curse-Project-ID`. The upload needs the repository secret `CF_API_TOKEN`. Never edit `## Version` in the TOC by hand; installed dev copies show `@project-version@`.
+The upload needs the repository secret `CF_API_TOKEN`. Never edit `## Version` in the TOC by hand; installed dev copies show `@project-version@`.

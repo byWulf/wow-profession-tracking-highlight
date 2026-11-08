@@ -1,0 +1,5 @@
+package-as: ProfessionTrackingHighlight
+
+ignore:
+  - AGENTS.md
+  - CLAUDE.md

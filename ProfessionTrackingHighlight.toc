@@ -1,0 +1,22 @@
+## Interface: 16001
+## Title: Profession Tracking Highlight
+## Notes: Marks the action button of your active herb or mineral tracking with a colored border.
+## Notes-deDE: Markiert den Aktionsleisten-Button deiner aktiven Kräuter- oder Mineraliensuche mit einem farbigen Rahmen.
+## Notes-frFR: Marque d'une bordure colorée le bouton d'action de votre recherche d'herbes ou de minerais active.
+## Notes-esES: Marca con un borde de color el botón de acción de tu búsqueda de hierbas o minerales activa.
+## Notes-esMX: Marca con un borde de color el botón de acción de tu búsqueda de hierbas o minerales activa.
+## Notes-ptBR: Marca com uma borda colorida o botão de ação da sua busca de ervas ou minérios ativa.
+## Notes-ruRU: Отмечает цветной рамкой кнопку на панели команд для активного поиска трав или руды.
+## Notes-koKR: 활성화된 약초 또는 광물 찾기의 행동 단축바 버튼을 색 테두리로 표시합니다.
+## Notes-zhCN: 用彩色边框标记动作条上当前激活的草药或矿物追踪按钮。
+## Notes-zhTW: 以彩色邊框標示快捷列上目前啟用的草藥或礦物追蹤按鈕。
+## Author: byWulf
+## Version: @project-version@
+## X-License: MIT
+## SavedVariables: ProfessionTrackingHighlightDB
+## IconTexture: Interface\Icons\INV_Misc_Flower_02
+
+Locales.lua
+Core.lua
+Buttons.lua
+Options.lua
